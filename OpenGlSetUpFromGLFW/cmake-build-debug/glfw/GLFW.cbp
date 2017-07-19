@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\glfw\;CMake Files\glfw\src\;CMake Files\glfw\docs\;CMake Files\glfw\examples\;CMake Files\glfw\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/boing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 boing"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/boing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 boing/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/simple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 simple"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/simple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 simple/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/gears.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 gears"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/gears.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 gears/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/wave.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 wave"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/wave.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 wave/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/particles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 particles"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/particles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 particles/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/heightmap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 heightmap"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/heightmap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 heightmap/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/splitview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 splitview"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/splitview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 splitview/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/clipboard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clipboard"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/clipboard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clipboard/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/joysticks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 joysticks"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/joysticks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 joysticks/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 events"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 events/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/msaa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 msaa"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/msaa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 msaa/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/iconify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 iconify"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/iconify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 iconify/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/gamma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 gamma"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/gamma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 gamma/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 glfwinfo"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 glfwinfo/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/monitors.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 monitors"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/monitors.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 monitors/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/reopen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 reopen"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/reopen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 reopen/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/cursor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 cursor"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/cursor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 cursor/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/empty.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 empty"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/empty.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 empty/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/sharing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 sharing"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/sharing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 sharing/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/tearing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 tearing"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/tearing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 tearing/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/threads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 threads"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/threads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 threads/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/title.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 title"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/title.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 title/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/windows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 windows"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows/fast">
+				<Option output="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/windows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include"/>
+					<Add directory="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 windows/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps/getopt.c">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="tearing"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps/getopt.h">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="tearing"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps/glad.c">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps/glad/glad.h">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps/tinycthread.c">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/deps/tinycthread.h">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/boing.c">
+			<Option target="boing"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/gears.c">
+			<Option target="gears"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/heightmap.c">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/particles.c">
+			<Option target="particles"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/simple.c">
+			<Option target="simple"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/splitview.c">
+			<Option target="splitview"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/wave.c">
+			<Option target="wave"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/win32_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/win32_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/winmm_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/winmm_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/clipboard.c">
+			<Option target="clipboard"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/cursor.c">
+			<Option target="cursor"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/empty.c">
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/events.c">
+			<Option target="events"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/gamma.c">
+			<Option target="gamma"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/glfwinfo.c">
+			<Option target="glfwinfo"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/iconify.c">
+			<Option target="iconify"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/joysticks.c">
+			<Option target="joysticks"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/monitors.c">
+			<Option target="monitors"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/msaa.c">
+			<Option target="msaa"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/reopen.c">
+			<Option target="reopen"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/sharing.c">
+			<Option target="sharing"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/tearing.c">
+			<Option target="tearing"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/threads.c">
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/title.c">
+			<Option target="title"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/windows.c">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\glfw\docs\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\glfw\docs\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/tuyas/CLionProjects/OpenGlSetUpFromGLFW/glfw/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

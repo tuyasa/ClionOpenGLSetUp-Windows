@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libGLAD.a  CMakeFiles/GLAD.dir/src/glad.c.obj CMakeFiles/GLAD.dir/src/stb_image.cpp.obj
+C:\MinGW\bin\ranlib.exe libGLAD.a
